@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+  <!-- Parameters used by tests at runtime -->
+  <TestRunParameters>
+    <!-- Framework settings-->
+    <Parameter name="DefaultWaitTime" value="30" />
+    <Parameter name="SeleniumCluster" value="http://localhost:4444 " />
+    <Parameter name="ScannerEnabled" value="false" />
+    <Parameter name="ScannerType" value="Default" />
+
+    <!-- Environment settings-->
+    <Parameter name="RealWorldApp" value="https://www.demoblaze.com/" /> <!-- Inclusief http / https -->
+    <Parameter name="EnvironmentName" value="Test" />
+
+    <!-- Lokale debugging parameters-->
+    <Parameter name="ForceBrowser" value="" />
+    <Parameter name="ForceCluster" value="false" />
+  </TestRunParameters>
+</RunSettings>

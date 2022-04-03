@@ -1,0 +1,37 @@
+{
+  "theConfigMap": {
+    "auto_update_browser_versions": "0",
+    "hub_config_files": [
+      "hub_4444.json"
+    ],
+    "auto_start_hub": "1",
+    "iedriver": {
+      "bit": "x64",
+      "version": "3.141.59"
+    },
+    "default_role": "hub",
+    "chromedriver": {
+      "bit": "32",
+      "version": "79.0.3945.36"
+    },
+    "auto_update_drivers": "1",
+    "video_recording_options": {
+      "videos_to_keep": "40"
+    },
+    "auto_start_node": "1",
+    "hub_config": {},
+    "geckodriver": {
+      "bit": "32",
+      "version": "0.26.0"
+    },
+    "log_maximum_age_ms": 2419200000,
+    "reboot_after_sessions": "0",
+    "grid_extras_port": "3000",
+    "webdriver": {
+      "version": "3.141.59"
+    },
+    "node_config_files": [
+      "node_5555.json"
+    ]
+  }
+}
