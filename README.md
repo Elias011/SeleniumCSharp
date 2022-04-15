@@ -27,3 +27,12 @@ public IwebElement GetOptionFromList(int optionNumber)
    return _driver.FindElementSafe(By.Id("option" + optionNumber));
 }
 ```
+### How to add a new page to the project
+Create a new folder in the Pages folder. Place an Elements and Actions file with aonstructor in it 
+
+Open the WebAppInitializer file in the Engn folder and add two new lines:
+```
+public <PageName>Actions<PageName>Actions => Resolve<PageName>Actions();
+public <PageName>Elements<PageName>Elements => Resolve<PageName>Elements();
+```
+In this way will ensure that your classes are registers and you can call them from the test page
