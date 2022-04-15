@@ -17,3 +17,13 @@ Elements are needed to link the test to the correct ID, class or Xpath on the we
 
 ### Naming conventions
 Elements should have friendly names in the code to easily discover what the Elements should do. The friendly name of the element corresponds to the name on the screen + type, for example: **ContactModalSendMessageButton** or **ContactModalMessageField**
+
+### Actions
+An Action contains methods with actions and are excuted multible times as well as definitions of elements that contains a unic ID
+Example:
+```
+public IwebElement GetOptionFromList(int optionNumber)
+{
+   return _driver.FindElementSafe(By.Id("option" + optionNumber));
+}
+```
