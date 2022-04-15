@@ -36,3 +36,6 @@ public <PageName>Actions<PageName>Actions => Resolve<PageName>Actions();
 public <PageName>Elements<PageName>Elements => Resolve<PageName>Elements();
 ```
 In this way will ensure that your classes are registers and you can call them from the test page
+
+### Example RealWorldApp
+The framework comes with a sample example RealWorldApp test that will clarify the framework structure
